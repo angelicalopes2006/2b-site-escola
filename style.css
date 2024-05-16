@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 *{
-margin:0;
-padding:0;
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --cor-um: #3c096c;
+    --cor-dois: #5a189a;
+    --cor-tres:#7b2cbf;
+    --cor-quatro:#9d4edd;
+    --cor-cinco:#c77dff;
+    --texto-corpo: "PT Sans Narrow", sans-serif;
+    --texto-titulo: "Dancing Script", cursive;
 }
 
 body{
-    background: #722691;
-    color: whitesmoke;
+    background: #3c096c;
+    color: #c77dff;
+   
+    font-family:var(--texto-titulo) ;
+}
+.titulo-principal {
+    font-family: var(--texto-titulo);
 }
