@@ -10,16 +10,16 @@
     --cor-dois: #5a189a;
     --cor-tres:#7b2cbf;
     --cor-quatro:#9d4edd;
-    --cor-cinco:#c77dff;
+    --cor-cinco:#f1eeee;
     --texto-corpo: "PT Sans Narrow", sans-serif;
     --texto-titulo: "Dancing Script", cursive;
 }
 
 body{
     background: #3c096c;
-    color: #c77dff;
-   
-    font-family:var(--texto-titulo) ;
+    color: #585656;
+    fundo
+    font-family: var(--texto-titulo) ;
 }
 .cabecalho{
     background-color: var(--cor-tres);
@@ -29,7 +29,7 @@ body{
     padding: 12px;
 }
 .cabecalho-img{
-    width: 15%;
+    width: 10%;
     border-radius: 80%;
 }
 .cabecalho-nav_link{
@@ -38,5 +38,37 @@ body{
     font-size: 24px;
     color: var(--cor-um);
     margin-right: 24px;
+}
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
+}
+ 
+.principal-capa_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+ 
+.principal-capa_titulo{
+    font-family: var(--texto-titulo);
+    font-size: 42px;
+    color: var(--cor-cinco);
+    margin-top: 12px;
+}
+
+.principal-capa_texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa_imagem{
+    border-radius: 0 5% 0 5%;
 }
 
