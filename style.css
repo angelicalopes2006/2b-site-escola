@@ -54,12 +54,23 @@ body{
     flex-direction: column;
     gap: 12px;
 }
+
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
  
 .principal-capa_titulo{
     font-family: var(--texto-titulo);
     font-size: 42px;
     color: var(--cor-cinco);
     margin-top: 12px;
+}
+
+.propaganda__titulo:hover{
+    text-shadow: 3px 3px 5px var(--cor-dois);
+    transition: 700ms;
 }
 
 .principal-capa_texto{
@@ -72,11 +83,30 @@ body{
 }
 
 .principal-capa__botao{
-    background-color: var(--cor-um);
+    background-color: var(--cor-cinco);
     border-radius: 5px;
     padding: 1em;
-    margin-top: 2em;
-    color: var(--cor-dois);
+    margin-top: 4em;
+    color: var(--cor-quatro);
     text-decoration: none;
 }
 
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-cinco);
+    color: var(--cor-cinco);
+}
+
+.propaganda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7em;
+}
+
+.propaganda__imagem{
+    margin-left: 20%;
+    width: 50%;
+}
