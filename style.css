@@ -132,7 +132,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.dispositivos{
+.dispositivos{ 
     text-align: center;
 }
 
@@ -152,4 +152,24 @@ body{
 .lista__item{
     font-size: 24px;
     color: var(--cor-quatro);
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-quatro);
+    margin-left: 1em;
+}
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cor-quatro);
+    font-size: 14px;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
 }
